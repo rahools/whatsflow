@@ -1,5 +1,5 @@
 {
-  "extends": "@splitsnap/tsconfig/internal-package.json",
+  "extends": "@whatsflow/tsconfig/internal-package.json",
   "include": ["src"],
   "exclude": ["node_modules"]
 }

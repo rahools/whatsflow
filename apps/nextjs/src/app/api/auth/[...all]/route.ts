@@ -1,3 +1,3 @@
-import { nextJsHandler } from "@splitsnap/auth/server";
+import { nextJsHandler } from "@whatsflow/auth/server";
 
 export const { POST, GET } = nextJsHandler;

@@ -1,4 +1,4 @@
-import baseConfig from "@splitsnap/eslint-config/base";
+import baseConfig from "@whatsflow/eslint-config/base";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

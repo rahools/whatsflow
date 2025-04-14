@@ -10,8 +10,8 @@ import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-import { auth, validateToken } from "@splitsnap/auth/server";
-import { db } from "@splitsnap/db/client";
+import { auth, validateToken } from "@whatsflow/auth/server";
+import { db } from "@whatsflow/db/client";
 
 /**
  * Isomorphic Session getter for API requests

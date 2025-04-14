@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/eslint-config",
+  "name": "@whatsflow/eslint-config",
   "private": true,
   "version": "0.3.0",
   "type": "module",
@@ -25,11 +25,11 @@
     "typescript-eslint": "^8.27.0"
   },
   "devDependencies": {
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

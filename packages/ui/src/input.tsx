@@ -1,6 +1,6 @@
 import type { ComponentProps } from "react";
 
-import { cn } from "@splitsnap/ui";
+import { cn } from "@whatsflow/ui";
 
 export function Input({ className, ...props }: ComponentProps<"input">) {
   return (

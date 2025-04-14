@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/require-await */
 "use server";
 
-import type { TRPCQueryOptions } from "@trpc/tanstack-react-query";
-import { cache } from "react";
-import { headers } from "next/headers";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
+import type { TRPCQueryOptions } from "@trpc/tanstack-react-query";
 import { createTRPCOptionsProxy } from "@trpc/tanstack-react-query";
+import { headers } from "next/headers";
+import { cache } from "react";
 
-import type { AppRouter } from "@splitsnap/api";
-import { appRouter, createTRPCContext } from "@splitsnap/api";
+import type { AppRouter } from "@whatsflow/api";
+import { appRouter, createTRPCContext } from "@whatsflow/api";
 
 import { createQueryClient } from "./query-client";
 

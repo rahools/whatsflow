@@ -1,4 +1,4 @@
-import baseConfig, { restrictEnvAccess } from "@splitsnap/eslint-config/base";
+import baseConfig, { restrictEnvAccess } from "@whatsflow/eslint-config/base";
 
 /** @type {import('typescript-eslint').Config} */
 export default [

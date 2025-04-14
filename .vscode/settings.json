@@ -4,7 +4,10 @@
       "mode": "auto"
     }
   ],
-  "cSpell.words": ["splitsnap"],
+  "cSpell.words": [
+    "anisolelabs",
+    "whatsflow"
+  ],
   "editor.defaultFormatter": null,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -13,6 +16,9 @@
     "source.organizeImports": "explicit"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/api",
+  "name": "@whatsflow/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -19,20 +19,20 @@
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@splitsnap/auth": "workspace:*",
-    "@splitsnap/db": "workspace:*",
-    "@splitsnap/validators": "workspace:*",
     "@trpc/server": "catalog:",
+    "@whatsflow/auth": "workspace:*",
+    "@whatsflow/db": "workspace:*",
+    "@whatsflow/validators": "workspace:*",
     "superjson": "2.2.2",
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@splitsnap/eslint-config": "workspace:*",
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
+    "@whatsflow/eslint-config": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

@@ -1,10 +1,10 @@
-import type { Metadata, Viewport } from "next";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
+import type { Metadata, Viewport } from "next";
 
-import { cn } from "@splitsnap/ui";
-import { ThemeProvider, ThemeToggle } from "@splitsnap/ui/theme";
-import { Toaster } from "@splitsnap/ui/toast";
+import { cn } from "@whatsflow/ui";
+import { ThemeProvider, ThemeToggle } from "@whatsflow/ui/theme";
+import { Toaster } from "@whatsflow/ui/toast";
 
 import { TRPCReactProvider } from "~/trpc/react";
 

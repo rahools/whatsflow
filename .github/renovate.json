@@ -3,7 +3,7 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@splitsnap/"],
+      "matchPackagePatterns": ["^@whatsflow/"],
       "enabled": false
     }
   ],

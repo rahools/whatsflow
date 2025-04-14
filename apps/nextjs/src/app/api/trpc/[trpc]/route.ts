@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/require-await */
 "use server";
 
-import type { NextRequest } from "next/server";
 import { fetchRequestHandler } from "@trpc/server/adapters/fetch";
+import type { NextRequest } from "next/server";
 
-import { appRouter, createTRPCContext } from "@splitsnap/api";
+import { appRouter, createTRPCContext } from "@whatsflow/api";
 
 /**
  * Configure basic CORS headers

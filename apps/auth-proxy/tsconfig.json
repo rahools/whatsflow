@@ -1,4 +1,4 @@
 {
-  "extends": "@splitsnap/tsconfig/base.json",
+  "extends": "@whatsflow/tsconfig/base.json",
   "include": ["routes"]
 }

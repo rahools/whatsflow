@@ -1,5 +1,5 @@
 {
-  "extends": "@splitsnap/tsconfig/base.json",
+  "extends": "@whatsflow/tsconfig/base.json",
   "include": ["."],
   "exclude": ["node_modules"]
 }

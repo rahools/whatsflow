@@ -2,8 +2,8 @@ import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 import { toNextJsHandler } from "better-auth/next-js";
 
-import type { Session, User } from "@splitsnap/db/schema";
-import { db } from "@splitsnap/db/client";
+import { db } from "@whatsflow/db/client";
+import type { Session, User } from "@whatsflow/db/schema";
 
 import { env } from "../env";
 

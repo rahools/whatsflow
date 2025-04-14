@@ -1,9 +1,9 @@
+import { betterFetch } from "@better-fetch/fetch";
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
-import { betterFetch } from "@better-fetch/fetch";
 
-import type { SessionWithUser } from "@splitsnap/auth";
-import { baseAuthUrl } from "@splitsnap/auth";
+import type { SessionWithUser } from "@whatsflow/auth";
+import { baseAuthUrl } from "@whatsflow/auth";
 
 const authRoutes = ["/signin", "/signup"];
 const passwordRoutes = ["/reset-password", "/forgot-password"];

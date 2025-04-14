@@ -1,22 +1,22 @@
 "use client";
 
-import type {
-  ControllerProps,
-  FieldPath,
-  FieldValues,
-  UseFormProps,
-} from "react-hook-form";
-import type { ZodType, ZodTypeDef } from "zod";
-import * as React from "react";
 import { standardSchemaResolver } from "@hookform/resolvers/standard-schema";
 import { Slot } from "radix-ui";
-import {
-  useForm as __useForm,
-  Controller,
-  useFormContext,
+import * as React from "react";
+import type {
+    ControllerProps,
+    FieldPath,
+    FieldValues,
+    UseFormProps,
 } from "react-hook-form";
+import {
+    useForm as __useForm,
+    Controller,
+    useFormContext,
+} from "react-hook-form";
+import type { ZodType, ZodTypeDef } from "zod";
 
-import { cn } from "@splitsnap/ui";
+import { cn } from "@whatsflow/ui";
 
 import { Label } from "./label";
 

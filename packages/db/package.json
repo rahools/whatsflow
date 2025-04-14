@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/db",
+  "name": "@whatsflow/db",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -37,14 +37,14 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@splitsnap/eslint-config": "workspace:*",
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
+    "@whatsflow/eslint-config": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "dotenv-cli": "^8.0.0",
     "drizzle-kit": "^0.30.5",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

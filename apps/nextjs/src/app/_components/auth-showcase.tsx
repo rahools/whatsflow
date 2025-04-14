@@ -2,8 +2,8 @@
 
 import { useQueryClient, useSuspenseQuery } from "@tanstack/react-query";
 
-import { authClient } from "@splitsnap/auth";
-import { Button } from "@splitsnap/ui/button";
+import { authClient } from "@whatsflow/auth";
+import { Button } from "@whatsflow/ui/button";
 
 import { useTRPC } from "~/trpc/react";
 

@@ -1,5 +1,5 @@
 {
-  "extends": "@splitsnap/tsconfig/base.json",
+  "extends": "@whatsflow/tsconfig/base.json",
   "compilerOptions": {
     "lib": ["ES2022", "dom", "dom.iterable"],
     "jsx": "preserve",

@@ -1,8 +1,8 @@
 import type { TRPCRouterRecord } from "@trpc/server";
 import { z } from "zod";
 
-import { desc, eq } from "@splitsnap/db";
-import { CreatePostSchema, Post } from "@splitsnap/db/schema";
+import { desc, eq } from "@whatsflow/db";
+import { CreatePostSchema, Post } from "@whatsflow/db/schema";
 
 import { protectedProcedure, publicProcedure } from "../trpc";
 

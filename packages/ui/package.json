@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/ui",
+  "name": "@whatsflow/ui",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -32,11 +32,11 @@
     "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
-    "@splitsnap/eslint-config": "workspace:*",
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tailwind-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
+    "@whatsflow/eslint-config": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tailwind-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "react": "catalog:react19",
@@ -47,5 +47,5 @@
     "react": "catalog:react19",
     "zod": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

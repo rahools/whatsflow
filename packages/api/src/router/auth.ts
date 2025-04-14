@@ -1,11 +1,11 @@
 import type { TRPCRouterRecord } from "@trpc/server";
 
-import { auth } from "@splitsnap/auth/server";
+import { auth } from "@whatsflow/auth/server";
 
-import { protectedProcedure, publicProcedure } from "../trpc";
+import { protectedProcedure } from "../trpc";
 
 export const authRouter = {
-  getSession: publicProcedure.query(({ ctx }) => {
+  getSession: protectedProcedure.query(({ ctx }) => {
     return ctx.session;
   }),
 

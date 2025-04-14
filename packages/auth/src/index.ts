@@ -1,6 +1,6 @@
 import { createAuthClient } from "better-auth/react";
 
-import type { Session, User } from "@splitsnap/db/schema";
+import type { Session, User } from "@whatsflow/db/schema";
 
 import { env } from "../env";
 

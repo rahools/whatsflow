@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/tailwind-config",
+  "name": "@whatsflow/tailwind-config",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -20,13 +20,13 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@splitsnap/eslint-config": "workspace:*",
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
     "@types/node": "^22.13.11",
+    "@whatsflow/eslint-config": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

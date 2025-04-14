@@ -1,5 +1,5 @@
 {
-  "name": "@splitsnap/auth",
+  "name": "@whatsflow/auth",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -21,8 +21,9 @@
   "dependencies": {
     "@auth/core": "catalog:",
     "@auth/drizzle-adapter": "catalog:",
-    "@splitsnap/db": "workspace:*",
+    "@better-auth/expo": "^1.2.7",
     "@t3-oss/env-nextjs": "^0.12.0",
+    "@whatsflow/db": "workspace:*",
     "better-auth": "^1.2.5",
     "next": "^15.2.3",
     "react": "catalog:react19",
@@ -30,13 +31,13 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@splitsnap/eslint-config": "workspace:*",
-    "@splitsnap/prettier-config": "workspace:*",
-    "@splitsnap/tsconfig": "workspace:*",
     "@types/react": "catalog:react19",
+    "@whatsflow/eslint-config": "workspace:*",
+    "@whatsflow/prettier-config": "workspace:*",
+    "@whatsflow/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
   },
-  "prettier": "@splitsnap/prettier-config"
+  "prettier": "@whatsflow/prettier-config"
 }

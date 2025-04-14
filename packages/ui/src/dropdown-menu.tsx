@@ -1,14 +1,14 @@
 "use client";
 
-import * as React from "react";
 import {
-  CheckIcon,
-  ChevronRightIcon,
-  DotFilledIcon,
+    CheckIcon,
+    ChevronRightIcon,
+    DotFilledIcon,
 } from "@radix-ui/react-icons";
 import { DropdownMenu as DropdownMenuPrimitive } from "radix-ui";
+import * as React from "react";
 
-import { cn } from "@splitsnap/ui";
+import { cn } from "@whatsflow/ui";
 
 export const DropdownMenu = DropdownMenuPrimitive.Root;
 export const DropdownMenuTrigger = DropdownMenuPrimitive.Trigger;

@@ -1,25 +1,25 @@
 "use client";
 
 import {
-  useMutation,
-  useQueryClient,
-  useSuspenseQuery,
+    useMutation,
+    useQueryClient,
+    useSuspenseQuery,
 } from "@tanstack/react-query";
 
-import type { RouterOutputs } from "@splitsnap/api";
-import { CreatePostSchema } from "@splitsnap/db/schema";
-import { cn } from "@splitsnap/ui";
-import { Button } from "@splitsnap/ui/button";
+import type { RouterOutputs } from "@whatsflow/api";
+import { CreatePostSchema } from "@whatsflow/db/schema";
+import { cn } from "@whatsflow/ui";
+import { Button } from "@whatsflow/ui/button";
 import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-  useForm,
-} from "@splitsnap/ui/form";
-import { Input } from "@splitsnap/ui/input";
-import { toast } from "@splitsnap/ui/toast";
+    Form,
+    FormControl,
+    FormField,
+    FormItem,
+    FormMessage,
+    useForm,
+} from "@whatsflow/ui/form";
+import { Input } from "@whatsflow/ui/input";
+import { toast } from "@whatsflow/ui/toast";
 
 import { useTRPC } from "~/trpc/react";
 
